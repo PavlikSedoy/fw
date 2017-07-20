@@ -17,7 +17,7 @@ class AppController extends Controller
     public $menu;
     public $meta = [];
 
-    public function __construct($route)
+    public function __construct($route) 
     {
         parent::__construct($route);
 
