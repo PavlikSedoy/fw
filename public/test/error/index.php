@@ -6,6 +6,14 @@
 
 define("DEBUG", 1);
 
+class NotFoundException extends Exception
+{
+    public function __construct($message = '', $code = 404)
+    {
+        parent::__construct($message, $code);
+    }
+}
+
 class ErrorHandler
 {
     public function __construct()
@@ -18,10 +26,12 @@ class ErrorHandler
         set_error_handler([$this, 'errorHandler']);
         ob_start();
         register_shutdown_function([$this, 'fatalErrorHandler']);
+//        set_exception_handler([$this, 'exceptionHandler']);
     }
 
     public function errorHandler($errno, $errstr, $errfile, $errline)
     {
+        error_log("[" . date('Y-m-d H:i:s') . "] Текст ошибки: {$errstr} | Файл: {$errfile} | Строка: {$errline}\n=========================================================\n", 3, __DIR__ . '/errors.log');
         $this->displayError($errno, $errstr, $errfile, $errline);
         return true;
     }
@@ -30,6 +40,7 @@ class ErrorHandler
     {
         $error = error_get_last();
         if (!empty($error) && $error['type'] & (E_ERROR | E_PARSE | E_COMPILE_ERROR | E_CORE_ERROR) ) {
+            error_log("[" . date('Y-m-d H:i:s') . "] Текст ошибки: {$error['message']} | Файл: {$error['file']} | Строка: {$error['line']}\n=========================================================\n", 3, __DIR__ . '/errors.log');
             ob_end_clean();
             $this->displayError($error['type'], $error['message'], $error['file'], $error['line']);
         } else {
@@ -37,8 +48,9 @@ class ErrorHandler
         }
     }
 
-    public function exceptionHandler(Exception $e)
+    public function exceptionHandler($e)
     {
+        error_log("[" . date('Y-m-d H:i:s') . "] Текст ошибки: {$e->getMessage()} | Файл: {$e->getFile()} | Строка: {$e->getLine()}\n=========================================================\n", 3, __DIR__ . '/errors.log');
         $this->displayError('Исключение', $e->getMessage(), $e->getFile(), $e->getLine(), $e->getCode());
     }
 
@@ -59,12 +71,14 @@ new ErrorHandler();
 //echo $test;
 //test();
 
-/*try {
-    if (empty($test)) {
-        throw new Exception('Упс, исключение');
-    }
-} catch (Exception $e) {
-    var_dump($e);
-}*/
+//try {
+//    if (empty($test)) {
+//        throw new Exception('Упс, исключение');
+//    }
+//} catch (Exception $e) {
+//    var_dump($e);
+//}
 
-throw new Exception('Упс, исключение');
+//throw new NotFoundException('Cтраница не найдена!');
+
+//throw new Exception('Упс, исключение');

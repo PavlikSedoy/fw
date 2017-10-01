@@ -1,0 +1,16 @@
+[2017-09-30 22:00:01] Текст ошибки: Undefined variable: test | Файл: /var/www/html/fw/public/test/error/index.php | Строка: 69
+=========================================================
+[2017-09-30 22:00:48] Текст ошибки: Undefined variable: test | Файл: /var/www/html/fw/public/test/error/index.php | Строка: 69
+=========================================================
+[2017-09-30 22:02:39] Текст ошибки: Undefined variable: test | Файл: /var/www/html/fw/public/test/error/index.php | Строка: 69
+=========================================================
+[2017-09-30 22:06:16] Текст ошибки: Uncaught Error: Call to undefined function test() in /var/www/html/fw/public/test/error/index.php:72
+Stack trace:
+#0 {main}
+  thrown | Файл: /var/www/html/fw/public/test/error/index.php | Строка: 72
+=========================================================
+[2017-09-30 22:07:19] Текст ошибки: Uncaught NotFoundException: Cтраница не найдена! in /var/www/html/fw/public/test/error/index.php:82
+Stack trace:
+#0 {main}
+  thrown | Файл: /var/www/html/fw/public/test/error/index.php | Строка: 82
+=========================================================
