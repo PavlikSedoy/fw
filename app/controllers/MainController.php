@@ -17,6 +17,7 @@ class MainController extends AppController
     {
 //        \R::fancyDebug('true');
         $model = new Main();
+//        trigger_error(error_msg: "E_USER_ERROR", error_type: E_USER_ERROR);
 //        $res = $model->query("CREATE TABLE posts SELECT * FROM shop.goods");
 //        $posts = $model->findAll();
 //        $post = $model->findOne(2);

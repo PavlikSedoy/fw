@@ -4,8 +4,8 @@ $(function () {
             url: '/main/test',
             type: 'post',
             data: {id:2},
-            success: function (data) {
-                console.log(data);
+            success: function (res) {
+                $('#answer').html(res);
             },
             error: function () {
                 alert('Error!');

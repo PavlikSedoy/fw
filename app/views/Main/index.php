@@ -1,4 +1,5 @@
 <div class="container">
+    <div id="answer"></div>
     <button class="btn btn-default" id="send">Кнопка</button>
     <!--  <?php //var_dump($_GET['n']); ?>  -->
     <?php if (!empty($posts)): ?>
