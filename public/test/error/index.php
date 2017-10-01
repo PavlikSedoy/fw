@@ -1,9 +1,5 @@
 <?php
 
-/*
- *
- */
-
 define("DEBUG", 1);
 
 class NotFoundException extends Exception

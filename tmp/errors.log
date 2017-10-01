@@ -1,0 +1,90 @@
+[2017-10-01 10:38:34] Текст ошибки: syntax error, unexpected '$posts' (T_VARIABLE) | Файл: /var/www/html/fw/app/controllers/MainController.php | Строка: 35
+=========================================================
+[2017-10-01 10:38:51] Текст ошибки: syntax error, unexpected '$posts' (T_VARIABLE) | Файл: /var/www/html/fw/app/controllers/MainController.php | Строка: 35
+=========================================================
+[2017-10-01 10:44:58] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(32): vendor\core\Router::dispatch('123')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
+[2017-10-01 10:47:54] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(32): vendor\core\Router::dispatch('123')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
+[2017-10-01 10:48:10] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(32): vendor\core\Router::dispatch('123')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
+[2017-10-01 10:48:36] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(32): vendor\core\Router::dispatch('123')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
+[2017-10-01 10:49:43] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(32): vendor\core\Router::dispatch('123')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
+[2017-10-01 10:49:43] Текст ошибки: Missing argument 5 for vendor\core\ErrorHandler::displayError(), called in /var/www/html/fw/vendor/core/ErrorHandler.php on line 37 and defined | Файл: /var/www/html/fw/vendor/core/ErrorHandler.php | Строка: 55
+=========================================================
+[2017-10-01 10:51:00] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(32): vendor\core\Router::dispatch('123')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
+[2017-10-01 10:51:34] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(32): vendor\core\Router::dispatch('123')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
+[2017-10-01 10:51:57] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(32): vendor\core\Router::dispatch('123')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
+[2017-10-01 10:52:10] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(32): vendor\core\Router::dispatch('123')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
+[2017-10-01 10:53:44] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(32): vendor\core\Router::dispatch('123/5')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
+[2017-10-01 10:54:59] Текст ошибки: Undefined variable: test | Файл: /var/www/html/fw/app/controllers/MainController.php | Строка: 20
+=========================================================
+[2017-10-01 10:57:06] Текст ошибки: syntax error, unexpected '$posts' (T_VARIABLE) | Файл: /var/www/html/fw/app/controllers/MainController.php | Строка: 35
+=========================================================
+[2017-10-01 10:57:20] Текст ошибки: syntax error, unexpected '$posts' (T_VARIABLE) | Файл: /var/www/html/fw/app/controllers/MainController.php | Строка: 35
+=========================================================
+[2017-10-01 10:57:33] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(33): vendor\core\Router::dispatch('123')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
+[2017-10-01 10:59:01] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(33): vendor\core\Router::dispatch('15')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
+[2017-10-01 10:59:40] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/core/Router.php:100
+Stack trace:
+#0 /var/www/html/fw/public/index.php(33): vendor\core\Router::dispatch('15')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/core/Router.php | Строка: 100
+=========================================================
