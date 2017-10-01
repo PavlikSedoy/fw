@@ -158,3 +158,13 @@ Stack trace:
 =========================================================
 [2017-10-01 11:59:39] Текст ошибки: syntax error, unexpected ':', expecting ',' or ')' | Файл: /var/www/html/fw/app/controllers/MainController.php | Строка: 20
 =========================================================
+[2017-10-01 21:19:22] Текст ошибки: require(/var/www/html/fw/public/menu_tpl/select.php): failed to open stream: No such file or directory | Файл: /var/www/html/fw/vendor/widgets/menu/Menu.php | Строка: 81
+=========================================================
+[2017-10-01 21:19:22] Текст ошибки: require(): Failed opening required '/var/www/html/fw/public/menu_tpl/select.php' (include_path='.:/usr/share/php') | Файл: /var/www/html/fw/vendor/widgets/menu/Menu.php | Строка: 81
+=========================================================
+[2017-10-01 21:20:31] Текст ошибки: require(/var/www/html/fw/public/menu_tpl/select.php): failed to open stream: No such file or directory | Файл: /var/www/html/fw/vendor/widgets/menu/Menu.php | Строка: 81
+=========================================================
+[2017-10-01 21:21:49] Текст ошибки: require(/var/www/html/fw/public/menu_tpl/select.php): failed to open stream: No such file or directory | Файл: /var/www/html/fw/vendor/widgets/menu/Menu.php | Строка: 81
+=========================================================
+[2017-10-01 21:38:32] Текст ошибки: syntax error, unexpected ':', expecting ',' or ')' | Файл: /var/www/html/fw/vendor/widgets/menu/Menu.php | Строка: 56
+=========================================================
