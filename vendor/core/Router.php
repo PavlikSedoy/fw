@@ -62,6 +62,10 @@ class Router
                     if (is_string($key)) $route[$key] = $value;
                 }
                 if (!isset($route['action'])) $route['action'] = 'index';
+                // prefix for admin controllers
+                if (!isset($route['prefix'])) $route['prefix'] = '';
+                else $route['prefix'] .= '\\';
+//                debug($route);
                 $route['controller'] = self::upperCamelCase($route['controller']);
                 self::$route = $route;
                 return true;
@@ -79,7 +83,7 @@ class Router
     {
         $url = self::removeQueryString($url);
         if (self::matchRoute($url)) {
-            $controller = 'app\controllers\\' . self::$route['controller'] . 'Controller';
+            $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
             if (class_exists($controller)) {
                 $cObj = new $controller(self::$route);
                 $action = self::lowerCamelCase(self::$route['action'] . 'Action');

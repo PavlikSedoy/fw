@@ -2,6 +2,8 @@
 
 namespace vendor\core;
 
+use RedBeanPHP\Logger\RDefault\Debug;
+
 class ErrorHandler
 {
     public function __construct()
@@ -51,7 +53,7 @@ class ErrorHandler
     {
         if (!DEBUG) $response = 404;
         http_response_code($response);
-        if ($response == 404) {
+        if ($response == 404 && !DEBUG) {
             require WWW . '/errors/404.html';
             die;
         }
