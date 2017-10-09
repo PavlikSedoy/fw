@@ -6,10 +6,10 @@
  * Time: 17:54
  */
 
-namespace vendor\core;
+namespace fw\core;
 
-use vendor\core\Registry;
-use vendor\core\ErrorHandler;
+use fw\core\Registry;
+use fw\core\ErrorHandler;
 
 
 class App

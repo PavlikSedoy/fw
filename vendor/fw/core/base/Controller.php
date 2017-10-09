@@ -6,7 +6,7 @@
  * Time: 15:23
  */
 
-namespace vendor\core\base;
+namespace fw\core\base;
 
 
 abstract class Controller

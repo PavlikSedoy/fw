@@ -2,7 +2,7 @@
     <div id="answer"></div>
     <button class="btn btn-default" id="send">Кнопка</button>
     <br>
-    <?php new \vendor\widgets\menu\Menu([
+    <?php new \fw\widgets\menu\Menu([
 //        'tpl' => WWW . '/menu/my_menu.php',
         'tpl' => WWW . '/menu/select.php',
         'container' => 'select',
@@ -12,14 +12,14 @@
         'cacheKey' => 'menu_select',
     ]); ?>
 
-    <?php new \vendor\widgets\menu\Menu([
-        'tpl' => WWW . '/menu/my_menu.php',
-        'container' => 'ul',
-        'class' => 'my_menu',
-        'table' => 'categories',
-        'cache' => 60,
-        'cacheKey' => 'menu_ul',
-    ]); ?>
+<!--    --><?php //new \fw\widgets\menu\Menu([
+//        'tpl' => WWW . '/menu/my_menu.php',
+//        'container' => 'ul',
+//        'class' => 'my_menu',
+//        'table' => 'categories',
+//        'cache' => 60,
+//        'cacheKey' => 'menu_ul',
+//    ]); ?>
     <!--  <?php //var_dump($_GET['n']); ?>  -->
     <?php if (!empty($posts)): ?>
         <?php foreach ($posts as $post): ?>

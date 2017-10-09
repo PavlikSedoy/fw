@@ -6,7 +6,7 @@
  * Time: 11:12
  */
 
-namespace vendor\core;
+namespace fw\core;
 
 use R;
 

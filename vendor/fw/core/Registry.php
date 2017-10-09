@@ -6,7 +6,7 @@
  * Time: 17:23
  */
 
-namespace vendor\core;
+namespace fw\core;
 
 class Registry
 {

@@ -6,7 +6,7 @@
  * Time: 13:37
  */
 
-namespace vendor\libs;
+namespace fw\libs;
 
 
 class Test
