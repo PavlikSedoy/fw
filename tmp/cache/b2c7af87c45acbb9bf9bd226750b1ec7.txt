@@ -1,0 +1,11 @@
+a:2:{s:4:"data";s:563:"<option value="685">Комплектующие Apple</option>
+    <option value="691">&nbsp;-Запчасти iPad</option>
+    <option value="694">&nbsp;&nbsp;--iPad</option>
+<option value="695">&nbsp;&nbsp;--iPad 2</option>
+<option value="696">&nbsp;&nbsp;--iPad NEW (iPad 3)</option>
+<option value="697">&nbsp;&nbsp;--iPad 4</option>
+<option value="698">&nbsp;&nbsp;--iPad mini</option>
+<option value="692">&nbsp;-Запчасти iPhone</option>
+    <option value="699">&nbsp;&nbsp;--iPhone 4</option>
+<option value="693">&nbsp;-Запчасти Mac</option>
+";s:8:"end_time";i:1507575553;}

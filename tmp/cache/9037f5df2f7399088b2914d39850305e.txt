@@ -1,0 +1,27 @@
+a:2:{s:4:"data";s:815:"<li class="test">
+    <a href="?id=685">Комплектующие Apple</a>
+            <ul>
+            <li class="test">
+    <a href="?id=691">Запчасти iPad</a>
+            <ul>
+            <li class="test">
+    <a href="?id=694">iPad</a>
+    </li><li class="test">
+    <a href="?id=695">iPad 2</a>
+    </li><li class="test">
+    <a href="?id=696">iPad NEW (iPad 3)</a>
+    </li><li class="test">
+    <a href="?id=697">iPad 4</a>
+    </li><li class="test">
+    <a href="?id=698">iPad mini</a>
+    </li>        </ul>
+    </li><li class="test">
+    <a href="?id=692">Запчасти iPhone</a>
+            <ul>
+            <li class="test">
+    <a href="?id=699">iPhone 4</a>
+    </li>        </ul>
+    </li><li class="test">
+    <a href="?id=693">Запчасти Mac</a>
+    </li>        </ul>
+    </li>";s:8:"end_time";i:1507481333;}
