@@ -12,3 +12,21 @@ Stack trace:
 #3 {main}
   thrown | Файл: /var/www/html/fw/vendor/fw/core/base/View.php | Строка: 58
 =========================================================
+[2017-10-10 20:28:49] Текст ошибки: Uncaught Exception: Страница не найдена in /var/www/html/fw/vendor/fw/core/Router.php:104
+Stack trace:
+#0 /var/www/html/fw/public/index.php(32): fw\core\Router::dispatch('favicon.ico')
+#1 {main}
+  thrown | Файл: /var/www/html/fw/vendor/fw/core/Router.php | Строка: 104
+=========================================================
+[2017-10-10 21:28:36] Текст ошибки: Uncaught [23000] - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'User1' for key 'user_login_uindex'
+trace: #0 /var/www/html/fw/vendor/fw/libs/rb.php(882): RedBeanPHP\Driver\RPDO->runQuery('INSERT INTO `us...', Array)
+#1 /var/www/html/fw/vendor/fw/libs/rb.php(919): RedBeanPHP\Driver\RPDO->GetAll('INSERT INTO `us...', Array)
+#2 /var/www/html/fw/vendor/fw/libs/rb.php(3547): RedBeanPHP\Driver\RPDO->GetOne('INSERT INTO `us...', Array)
+#3 /var/www/html/fw/vendor/fw/libs/rb.php(4976): RedBeanPHP\Adapter\DBAdapter->getCell('INSERT INTO `us...', Array, 0)
+#4 /var/www/html/fw/vendor/fw/libs/rb.php(5103): RedBeanPHP\QueryWriter\AQueryWriter->insertRecord('user', Array, Array)
+#5 /var/www/html/fw/vendor/fw/libs/rb.php(7822): RedBeanPHP\QueryWriter\AQueryWriter->updateRecord('user', Array, 0)
+#6 /var/www/html/fw/vendor/fw/libs/rb.php(7233): RedBeanPHP\Repository\Frozen->storeBean(Object(RedBeanPHP\OODBBean))
+#7 /var/www/html/fw/vendor/fw/libs/rb.php(8310): RedBeanPHP\Repository->store(Object(RedBe | Файл: /var/www/html/fw/vendor/fw/libs/rb.php | Строка: 720
+=========================================================
+[2017-10-10 21:50:54] Текст ошибки: Undefined variable: ste | Файл: /var/www/html/fw/vendor/fw/libs/functions.php | Строка: 24
+=========================================================
