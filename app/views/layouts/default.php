@@ -28,6 +28,8 @@
     
 <!--    <h1>Hello, world!</h1>-->
 
+    <?php debug($_SESSION) ?>
+
     <?php if (isset($_SESSION['errors'])): ?>
         <div class="alert alert-danger">
             <?=$_SESSION['errors']; unset($_SESSION['errors']);?>
